@@ -3,6 +3,7 @@ import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
+  console.log(socialMediaLinks.github);
   return (
     <div className="social-media-div">
       <a
@@ -12,15 +13,6 @@ export default function socialMedia() {
         rel="noopener noreferrer"
       >
         <i className="fab fa-github"></i>
-        <span></span>
-      </a>
-      <a
-        href={socialMediaLinks.gitlab}
-        className="icon-button gitlab"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-gitlab"></i>
         <span></span>
       </a>
       <a
@@ -48,15 +40,6 @@ export default function socialMedia() {
         rel="noopener noreferrer"
       >
         <i className="fab fa-twitter"></i>
-        <span></span>
-      </a>
-      <a
-        href={socialMediaLinks.instagram}
-        className="icon-button instagram"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-instagram"></i>
         <span></span>
       </a>
     </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
@@ -15,6 +14,8 @@ export default function Greeting(props) {
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
+      textDecoration: "none",
+      color: "white",
     },
   });
 
@@ -35,17 +36,22 @@ export default function Greeting(props) {
                 </span>
                 {greeting.subTitle}
               </p>
-              <SocialMedia />
               <div className="portfolio-repo-btn-div">
-                <button
+                {/* <button
                   {...styles}
                   className="button"
-                  onClick={() => {
-                    history.push("/contact");
-                  }}
+                  
+                ><a href="https://drive.google.com/file/d/1XmOI_gTBTVipq-05UoS9YyrLT_YHG8NZ/view?usp=sharing">
+                  See my Resume
+                  </a>
+                </button> */}
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href={greeting.resumeLink}
                 >
-                  Contact Me
-                </button>
+                  See my Resume
+                </a>
               </div>
             </div>
           </div>

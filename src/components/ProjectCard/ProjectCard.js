@@ -34,6 +34,9 @@ export default function ProjectCard({ repo, theme }) {
           style={{ backgroundColor: theme.projectCard }}
         >
           <div className="repo-name-div">
+            <div>
+              <img src={repo.image} alt="img" style={{ width: "100%" }} />
+            </div>
             <p className="repo-name" style={{ color: theme.text }}>
               {repo.name}
             </p>

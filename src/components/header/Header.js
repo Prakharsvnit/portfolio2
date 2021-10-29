@@ -89,7 +89,7 @@ function Header(props) {
                 Home
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 className="ec"
                 to="/education"
@@ -110,7 +110,7 @@ function Header(props) {
               >
                 Experience
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 className="projects"
