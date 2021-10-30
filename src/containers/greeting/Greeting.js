@@ -37,18 +37,12 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <div className="portfolio-repo-btn-div">
-                {/* <button
-                  {...styles}
-                  className="button"
-                  
-                ><a href="https://drive.google.com/file/d/1XmOI_gTBTVipq-05UoS9YyrLT_YHG8NZ/view?usp=sharing">
-                  See my Resume
-                  </a>
-                </button> */}
                 <a
                   {...styles}
                   className="general-btn"
                   href={greeting.resumeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   See my Resume
                 </a>

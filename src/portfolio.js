@@ -238,7 +238,8 @@ const projects = {
     {
       id: "1",
       name: "Netmeds-clone",
-      url: "https://github.com/Prakharsvnit/Netmeds-clone",
+      liveLink: "https://netmedsclone.vercel.app/",
+      gitLink: "https://github.com/Prakharsvnit/Netmeds-clone",
       image: project1,
       description:
         "Netmeds is e-commerce platform to buy pharmacy products and get it delivered at your doorstep.",
@@ -260,7 +261,8 @@ const projects = {
     {
       id: "3",
       name: "Covid-tracker",
-      url: "https://github.com/Prakharsvnit/covidTracker",
+      liveLink: "http://prakhar4896.pythonanywhere.com/",
+      gitLink: "https://github.com/Prakharsvnit/covidTracker",
       image: project2,
       description:
         "This app creates a database of covid users for official purposes. It also shows the spread of covid in different states according to the database",
