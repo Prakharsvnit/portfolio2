@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio2/static/css/main.9bc2490e.chunk.css",
-    "main.js": "/portfolio2/static/js/main.f33c4daf.chunk.js",
-    "main.js.map": "/portfolio2/static/js/main.f33c4daf.chunk.js.map",
-    "runtime-main.js": "/portfolio2/static/js/runtime-main.5cd369e2.js",
-    "runtime-main.js.map": "/portfolio2/static/js/runtime-main.5cd369e2.js.map",
-    "static/js/2.243d5b27.chunk.js": "/portfolio2/static/js/2.243d5b27.chunk.js",
-    "static/js/2.243d5b27.chunk.js.map": "/portfolio2/static/js/2.243d5b27.chunk.js.map",
+    "main.js": "/portfolio2/static/js/main.3f603b34.chunk.js",
+    "main.js.map": "/portfolio2/static/js/main.3f603b34.chunk.js.map",
+    "runtime-main.js": "/portfolio2/static/js/runtime-main.afe67eb9.js",
+    "runtime-main.js.map": "/portfolio2/static/js/runtime-main.afe67eb9.js.map",
+    "static/js/2.8d293839.chunk.js": "/portfolio2/static/js/2.8d293839.chunk.js",
+    "static/js/2.8d293839.chunk.js.map": "/portfolio2/static/js/2.8d293839.chunk.js.map",
     "index.html": "/portfolio2/index.html",
-    "precache-manifest.65f1fdae269d4abec0eb30efddf611db.js": "/portfolio2/precache-manifest.65f1fdae269d4abec0eb30efddf611db.js",
+    "precache-manifest.9ae5f6029535b2dc96ad6bff80939e79.js": "/portfolio2/precache-manifest.9ae5f6029535b2dc96ad6bff80939e79.js",
     "service-worker.js": "/portfolio2/service-worker.js",
     "static/css/main.9bc2490e.chunk.css.map": "/portfolio2/static/css/main.9bc2490e.chunk.css.map",
-    "static/js/2.243d5b27.chunk.js.LICENSE.txt": "/portfolio2/static/js/2.243d5b27.chunk.js.LICENSE.txt",
+    "static/js/2.8d293839.chunk.js.LICENSE.txt": "/portfolio2/static/js/2.8d293839.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio2/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/buld.jpg": "/portfolio2/static/media/buld.a1051a22.jpg",
     "static/media/covid-tracker.png": "/portfolio2/static/media/covid-tracker.b2e0ea10.png",
@@ -44,9 +44,9 @@
     "static/media/wrighter.jpg": "/portfolio2/static/media/wrighter.02fdae43.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5cd369e2.js",
-    "static/js/2.243d5b27.chunk.js",
+    "static/js/runtime-main.afe67eb9.js",
+    "static/js/2.8d293839.chunk.js",
     "static/css/main.9bc2490e.chunk.css",
-    "static/js/main.f33c4daf.chunk.js"
+    "static/js/main.3f603b34.chunk.js"
   ]
 }
